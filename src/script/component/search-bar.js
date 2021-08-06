@@ -20,11 +20,6 @@ class SearchBar extends HTMLElement {
   render() {
     this.shadowDOM.innerHTML = `
       <style>
-        // * {
-        //   padding: 0;
-        //   margin: 10px auto;
-        //   box-sizing: border-box;
-        // }
         .search-container {
           max-width: 800px;
           box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
